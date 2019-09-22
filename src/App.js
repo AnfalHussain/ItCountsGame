@@ -1,26 +1,50 @@
-import React from 'react';
+import React, { Component } from "react";
+
 import logo from './logo.svg';
 import './App.css';
+import Questions from './Questions'
+import Intro from './Intro'
+import Music from './music2.mp3'
+import Sound from "react-sound"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  state = {
+    isDone: false,
+    playsound: Sound.status.PLAYING
+
+  };
+
+
+
+  render() {
+
+    //const setView = () => {
+
+
+
+    //     })
+
+    // };
+
+
+    return (
+
+      <div className=" mybackground">
+        <div className="App">
+          {/* <h1 className="text-white ">Can Count</h1> */}
+          {/* <header className="App-header"> */}
+          <Sound url={Music} playStatus={this.state.playsound} loop={true} />
+
+
+          {/* <audio src={Music}></audio> */}
+          <Intro />
+          {/* </header> */}
+        </div>
+      </div>
+
+    );
+  };
 }
 
 export default App;

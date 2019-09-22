@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.mybackground {
+  /* background-image: url(./thunder.gif); */
+  
+  /* background-image: url(./redwhite.jpg); */
+  background-image: url(./redwave.gif);
+
+  /* height: 350px; */
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.myText{
+  padding-top: 150px;
+
+}
+.myNavText{
+
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 25px;
+
+}
+
+
+.questionText{
+color: rgba(228, 0, 49, 0.822);
+  font-size:100px ;
+  /* font-family: 'Luckiest Guy', cursive; */
+/* font-family: 'Lobster Two', cursive; */
+/* font-family: 'Anton', sans-serif; */
+font-family: 'Lobster', cursive;
+
+}
+
+.wonText{
+  color: rgb(255, 255, 255);
+    font-size:100px ;
+    font-family: 'Luckiest Guy', cursive;
+  /* font-family: 'Lobster Two', cursive; */
+  /* font-family: 'Anton', sans-serif; */
+  /* font-family: 'Lobster', cursive; */
+  
+  }
+  
+  .gameover1Text{
+    color: rgb(224, 0, 0);
+      font-size:50px ;
+      /* font-family: 'Luckiest Guy', cursive; */
+    /* font-family: 'Lobster Two', cursive; */
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Lobster', cursive;
+    
+    }
+  .gameoverText{
+    color: rgb(255, 255, 255);
+      font-size:50px ;
+      /* font-family: 'Luckiest Guy', cursive; */
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+    
+    }
