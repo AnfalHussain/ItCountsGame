@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 
-import "./index.css";
+import "../index.css";
 import OldQuestions from "./Questions";
 
 //Components
 import Gameover from "./Gameover";
 import Win from "./Win";
 import Navbar from "react-bootstrap/Navbar";
-import wrongSound from "./wrong.mp3";
-import correctSound from "./correct.mp3";
+import wrongSound from "../sounds/wrong.mp3";
+import correctSound from "../sounds/correct.mp3";
 
 // Images and Gifs
-import correct2 from "./correct2.png";
-import wrong2 from "./wrong2.png";
-import live from "./live.png";
-import gameIcon from "./gameIcon.gif";
+import correct2 from "../images/correct2.png";
+import wrong2 from "../images/wrong2.png";
+import live from "../images/live.png";
+import gameIcon from "../images/gameIcon.gif";
 
 function shuffle(array) {
   var currentIndex = array.length,

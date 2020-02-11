@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import gameoverGif from "./gameover.gif";
-import ballonwith from "./ballonwith.gif";
-import replay from "./replay.png";
+import gameoverGif from "../images/gameover.gif";
+import ballonwith from "../images/ballonwith.gif";
+import replay from "../images/replay.png";
 class Gameover extends Component {
   startAgain = () => {
     window.location.reload();

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import Intro from "./Intro";
-import Music from "./music2.mp3";
+import Intro from "./pages/Intro";
+import Music from "./sounds/music2.mp3";
 import Sound from "react-sound";
 
 class App extends Component {

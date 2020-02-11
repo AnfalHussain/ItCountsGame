@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import madwin from "./madWin.gif";
-import replay from "./replay.png";
+import madwin from "../images/madWin.gif";
+import replay from "../images/replay.png";
 
 class Win extends Component {
   startAgain = () => {

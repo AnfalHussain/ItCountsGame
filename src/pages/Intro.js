@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import intro from "./intro.gif";
-import play1 from "./play1.gif";
+import intro from "../images/intro.gif";
+import play1 from "../images/play1.gif";
 
-import it from "./it.png";
-import counts from "./counts.png";
+import it from "../images/it.png";
+import counts from "../images/counts.png";
 import Display from "./Display";
 
 class Intro extends Component {

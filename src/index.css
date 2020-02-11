@@ -13,7 +13,7 @@ code {
 }
 
 .mybackground {
-  background-image: url(./redwave.gif);
+  background-image: url(../src/images/redwave.gif);
   height: 120vh;
   background-position: center;
   background-size: cover;
