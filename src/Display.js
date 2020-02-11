@@ -9,6 +9,7 @@ import Win from "./Win";
 import Navbar from "react-bootstrap/Navbar";
 import wrongSound from "./wrong.mp3";
 import correctSound from "./correct.mp3";
+
 // Images and Gifs
 import correct2 from "./correct2.png";
 import wrong2 from "./wrong2.png";
@@ -65,7 +66,7 @@ class Display extends Component {
       });
       return (
         <div>
-          <div style={{ paddingBottom: 80 }}>
+          <div style={{ paddingTop: 80, paddingBottom: 80 }}>
             {/* Displaying the Questions */}
             <div>
               <h1 class="questionText">
@@ -74,7 +75,7 @@ class Display extends Component {
             </div>
           </div>
 
-          <div style={{ paddingTop: 80, paddingBottom: 40 }}>
+          <div style={{ paddingBottom: 40 }}>
             {/* wrong Button */}
             <button
               className="border-0"
@@ -160,6 +161,7 @@ class Display extends Component {
         src={live}
         height="65px"
         role="presentational"
+        alt=""
       />
     ));
 

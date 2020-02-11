@@ -37,9 +37,9 @@ class Intro extends Component {
             alt="evil clown"
             height="200px"
             className="questionText animated infinite flash"
-            style={{ paddingBottom: 80 }}
+            style={{ paddingBottom: 100 }}
           />
-
+          <br />
           {/* play Button */}
           <button
             className="border-0 "
